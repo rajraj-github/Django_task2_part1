@@ -1,0 +1,1 @@
+# Django_task2_part1
