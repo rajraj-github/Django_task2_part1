@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    Email :-
+    <input type="text" name="email"><p>
+    <button><input type="submit" value="Submit email"></button>
+</form>
+<br><br>
+<div><a href="{% url 'page1' %}">Don't have account? Sign-up</a> </div>
+{% endblock %}
